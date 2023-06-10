@@ -45,9 +45,9 @@ Cloud Build를 사용하기 위해선 steps를 정의해야한다(코드 컴파�
 - extensibility
 - Portability
 
-### GKE
+## Computing options detail
 
-### 특징
+### GKE
 - 완전 관리형
 - 컨테이너 최적화 os
 - auto upgrade(안정적인 최신 k8s cluster 버전으로 자동 업그레이드)
@@ -58,9 +58,6 @@ Cloud Build를 사용하기 위해선 steps를 정의해야한다(코드 컴파�
 - 통합된 로깅과 모니터링(Stackdriver)
 - 통합된 네트워킹(VPC)
 - 클라우드 콘솔
-
-## Computing options detail
-
 
 ### Compute Engine
 
