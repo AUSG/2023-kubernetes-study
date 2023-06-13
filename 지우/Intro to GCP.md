@@ -38,7 +38,7 @@
 ↓↓리소스가 영역, 리전, 그리고 전역에서 관리되는 구조↓↓
 <img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/00c2fde0-99e6-41a3-bd61-4432de439daf" width=60% heigh=60%>
 
-## H**ierarchical structure of Resources**
+## Hierarchical structure of Resources
 
 GCP는 프로젝트로 리소스를 관리한다.
 
