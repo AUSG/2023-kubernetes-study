@@ -137,7 +137,10 @@ Cloud Build가 새로 빌드한 이미지를 GKE, App Engine, Cloud Functions �
 <img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/fd23b975-1914-478c-bdd1-7d9968df929a" width=60% height=60%>
 
 <br />
+<<<<<<< HEAD
 <br />
+=======
+>>>>>>> 44643d5 (docs: add 2w study)
 
 ## LAB1
 
@@ -163,7 +166,10 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/quickstart-image .
 <img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/d01bae58-fc34-4d77-9d01-8b11a7358851" width=60% height=60%>
 
 <br />
+<<<<<<< HEAD
 <br />
+=======
+>>>>>>> 44643d5 (docs: add 2w study)
 
 ### yaml file & Cloud Build로 컨테이너 이미지 빌드
 
@@ -181,7 +187,12 @@ gcloud builds submit --config cloudbuild.yaml .
 
 <img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/f68c33b6-15d7-45e1-b7f5-be0a9b9484e4" width=60% height=60%>
 
+<<<<<<< HEAD
 <br />
+=======
+two versions of quickstart-image created
+
+>>>>>>> 44643d5 (docs: add 2w study)
 <br />
 
 ### yaml file & Cloud Build로 이미지 빌드 및 테스트
@@ -364,4 +375,8 @@ ERROR: (gcloud.builds.submit) build 9b3794be-2f1b-4a13-bafd-da01854c7183 complet
     - 모바일, IoT 백엔드 구축하거나 타사 서비스 및 API와 통합
     - GCS 버킷에 업로드된 파일을 실시간으로 처리
 - 쿼리 및 분석을 위한 데이터 ETL 가능
+<<<<<<< HEAD
     - 동영상 및 이미지 분석, 감정 분석 등의 지능형 애플리케이션 일부로도 사용
+=======
+    - 동영상 및 이미지 분석, 감정 분석 등의 지능형 애플리케이션 일부로도 사용
+>>>>>>> 44643d5 (docs: add 2w study)
