@@ -35,8 +35,11 @@
     
     ⇒ 에지 캐싱 네트워크로 콘텐츠와 최종 사용자를 지리적으로 가깝게 배치 → 지연 시간 최소화
     
-↓↓리소스가 영역, 리전, 그리고 전역에서 관리되는 구조↓↓
-<img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/00c2fde0-99e6-41a3-bd61-4432de439daf" width=60% heigh=60%>
+↓↓리소스가 영역, 리전, 그리고 전역에서 관리되는 구조↓↓   
+
+<img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/00c2fde0-99e6-41a3-bd61-4432de439daf" width=40% heigh=40%>
+
+<br>
 
 ## Hierarchical structure of Resources
 
@@ -60,8 +63,7 @@ GCP는 프로젝트로 리소스를 관리한다.
 
 # Billing
 
-> **프로젝트 수준**에서 결제 설정
-
+- **프로젝트 수준**에서 결제 설정
 - 하나 이상의 프로젝트에 결제 계정 연결 가능
     - 결제 하위 계정 분리 가능
 
