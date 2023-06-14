@@ -137,6 +137,7 @@ Cloud Build가 새로 빌드한 이미지를 GKE, App Engine, Cloud Functions �
 <img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/fd23b975-1914-478c-bdd1-7d9968df929a" width=60% height=60%>
 
 <br />
+<br />
 
 ## LAB1
 
@@ -162,6 +163,7 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/quickstart-image .
 <img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/d01bae58-fc34-4d77-9d01-8b11a7358851" width=60% height=60%>
 
 <br />
+<br />
 
 ### yaml file & Cloud Build로 컨테이너 이미지 빌드
 
@@ -179,8 +181,7 @@ gcloud builds submit --config cloudbuild.yaml .
 
 <img src="https://github.com/AUSG/2023-kubernetes-study/assets/70079416/f68c33b6-15d7-45e1-b7f5-be0a9b9484e4" width=60% height=60%>
 
-two versions of quickstart-image created
-
+<br />
 <br />
 
 ### yaml file & Cloud Build로 이미지 빌드 및 테스트
