@@ -139,3 +139,24 @@ task를 수행하기 위해서 pod들을 띄우게 되고 task가 완료되면 �
 - LoadBalancer: cloud provider의 load balancing 서비스를 이용해서 서비스를 외부로 노출
 
 GKE에서, LoadBalancer를 사용하면 기본적으로 regional network load balancing 설정 접근 가능. HTTP를 로드밸런싱을 사용하려면 ingress object를 사용해야함.
+
+## Migration Anthos
+
+워크로드를 google cloud의 컨테이너화된 배포로 가져올 수 있는 도구
+
+기존 애플리케이션을 k8s로 마이그레이션. 프로세스가 자동화되고 워크로드의 위치가 상관없음(온프레미스인지 다른 클라우드인지)
+
+### Migrate for Anthos 아키텍쳐
+
+먼저 Migrate for compute engine이 온프레미스나 클라우드 provider로부터 google cloud로 데이터를 스트리밍해서 마이그레이션 할 수 있도록 파이프라인을 생성하도록 허용해야함. Migrate for compute engine 도구는 기존의 애플리케이션을 google cloud의 vm으로 가져오는 도구이다.
+
+Migrate for Anthos은 GKE 클러스터에 설치되며 많은 k8s 리소스들로 구성되어 있고 이것은 k8s 구성들이나 dockerfile 같은 deployment artifacts 생성에 사용된다. 컨테이너는 cloud storage로 옮겨지고 이미지는 registry에 저장된다. deployment assets이 생성된 후에는 대상 클러스터로 배포할 수 있다.
+
+### step
+
+1. processing cluster를 만들고 Migrate for Anthos 설치
+2. migration source 추가(vmware, aws ,azure or google cloud)
+3. 수행 중인 migration의 세부정보로 migration 객체를 생성(yaml파일에 plan template 생성)
+4. migration을 위한 artifacts 생성(배포에 필요한 컨테이너 이미지와 yaml파일)
+5. test (컨테이너 이미지와 배포 테스트)
+6. 생성된 아티팩트로 deploy
