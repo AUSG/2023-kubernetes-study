@@ -138,10 +138,6 @@ Cloud Build가 새로 빌드한 이미지를 GKE, App Engine, Cloud Functions �
 
 <br />
 <br />
-<<<<<<< HEAD
-
-=======
->>>>>>> 2814dc5 (docs: update 2w study)
 
 ## LAB1
 
@@ -168,10 +164,6 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/quickstart-image .
 
 <br />
 <br />
-<<<<<<< HEAD
-
-=======
->>>>>>> 2814dc5 (docs: update 2w study)
 
 ### yaml file & Cloud Build로 컨테이너 이미지 빌드
 
